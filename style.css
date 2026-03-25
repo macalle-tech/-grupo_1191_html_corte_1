@@ -42,7 +42,8 @@
     border: 1px solid #cccccc;
     border-radius: 12px;
     padding: 20px;
-    margin: 20px;
+    flex-basis: calc(25% - 15px);
+    max-width: calc(20% - 15px);
     display: flex;
     flex-direction: column;
 }
