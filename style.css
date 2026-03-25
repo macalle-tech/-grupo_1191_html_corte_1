@@ -1,4 +1,77 @@
-body
-title
-menu
-main
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color:azure;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.item {
+    color: white;
+    font-size: 14px;
+}
+
+.main {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;   
+    gap: 20px;
+}
+
+.tarjetas {
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjetas h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contenido {
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+.footer_tarjeta {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
